@@ -1,36 +1,54 @@
 /*
-	Identity by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* List */
+/* Type */
 
-	ul.icons li a {
-		-ms-behavior: url("assets/js/PIE.htc");
+	body, input, select, textarea {
+		color: #ffffff;
 	}
 
-		ul.icons li a:before {
-			text-align: center;
-			font-size: 26px;
-		}
+/* Button */
 
-/* Main */
-
-	#main {
-		-ms-behavior: url("assets/js/PIE.htc");
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		position: relative;
 	}
 
-		#main .avatar img {
-			-ms-behavior: url("assets/js/PIE.htc");
+		input[type="submit"]:after,
+		input[type="reset"]:after,
+		input[type="button"]:after,
+		button:after,
+		.button:after {
+			display: none;
 		}
 
-/* Footer */
+/* Features */
 
-	#footer {
-		color: #fff;
+	.features {
+		border: solid 1px;
 	}
 
-		#footer .copyright li {
-			border-left: solid 1px #fff;
-		}
+/* Form */
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	select,
+	textarea {
+		background: transparent;
+		border: solid 1px;
+	}
+
+/* Split */
+
+	.split.style1 > :first-child {
+		padding-right: 2em;
+		width: 70%;
+	}

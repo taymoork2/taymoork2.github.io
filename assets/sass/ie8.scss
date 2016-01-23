@@ -4,48 +4,56 @@
 @import 'libs/skel';
 
 /*
-	Identity by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-/* List */
+/* Type */
 
-	ul {
-		&.icons {
-			li {
-				a {
-					-ms-behavior: url('assets/js/PIE.htc');
+	body, input, select, textarea {
+		color: _palette(fg-bold);
+	}
 
-					&:before {
-						text-align: center;
-						font-size: 26px;
-					}
-				}
-			}
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		position: relative;
+
+		&:after {
+			display: none;
 		}
 	}
 
-/* Main */
+/* Features */
 
-	#main {
-		-ms-behavior: url('assets/js/PIE.htc');
-
-		.avatar {
-			img {
-				-ms-behavior: url('assets/js/PIE.htc');
-			}
-		}
+	.features {
+		border: solid 1px;
 	}
 
-/* Footer */
+/* Form */
 
-	#footer {
-		color: #fff;
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	input[type="tel"],
+	select,
+	textarea {
+		background: transparent;
+		border: solid 1px;
+	}
 
-		.copyright {
-			li {
-				border-left: solid 1px #fff;
+/* Split */
+
+	.split {
+		&.style1 {
+			> :first-child {
+				padding-right: 2em;
+				width: 70%;
 			}
 		}
 	}
