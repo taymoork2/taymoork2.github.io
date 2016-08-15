@@ -1,0 +1,10 @@
+User-Agent: *
+Disallow: 
+
+User-Agent: Googlebot-Mobile
+Disallow: /
+
+User-Agent: Googlebot-Image
+Disallow: /assets
+
+Sitemap: https://taymoorkhan.tk/sitemap.xml
