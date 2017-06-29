@@ -1,3 +1,58 @@
+body {
+  background: linear-gradient(225deg, #FF0000, #008000, #0000FF, #FFFF00);
+  background-size: 800% 800%;
+
+  -webkit-animation: backgroundchanger 59s ease infinite;
+  -moz-animation: backgroundchanger 59s ease infinite;
+  -o-animation: backgroundchanger 59s ease infinite;
+  animation: backgroundchanger 59s ease infinite;
+
+  @-webkit-keyframes backgroundchanger {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  @-moz-keyframes backgroundchanger {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  @-o-keyframes backgroundchanger {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+  @keyframes backgroundchanger {
+    0% {
+      background-position: 100% 0%;
+    }
+    50% {
+      background-position: 0% 100%;
+    }
+    100% {
+      background-position: 100% 0%;
+    }
+  }
+}
+
 #wrapper {
   padding-bottom: .25em;
 }
